@@ -1,0 +1,137 @@
+<app-navbar></app-navbar>
+
+<div class="bg-image" style="background-image: url('../assets/image/3.jpg');  height: 100%;
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+            height: 100vh;">
+
+    <div class="box-root padding-top--48 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+
+        <div class="formbg-outer">
+            <div class="formbg">
+                <div class="formbg-inner padding-horizontal--48">
+                    <h1 style="color: orangered;">Book your activites, tours and hobbies.</h1>
+                    <form id="stripe-login">
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="field padding-bottom--24 p-2">
+
+                                    <select class="form-select p-1" aria-label="Default select example">
+                                        <option selected>City</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="field padding-bottom--24 p-2">
+
+                                    <select class="form-select p-1" aria-label="Default select example">
+                                        <option selected>Catogry</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="field padding-bottom--24 p-1">
+                                    <label for="datestart">Date Start</label>
+
+                                    <input matInput [matDatepicker]="pickerStart">
+                                    <mat-datepicker-toggle matSuffix [for]="pickerStart"></mat-datepicker-toggle>
+                                    <mat-datepicker #pickerStart></mat-datepicker>
+
+
+                                </div>
+
+                            </div>
+                            <div class="col-6">
+                                <div class="field padding-bottom--24 p-1">
+                                    <label for="dateend">Date End</label>
+
+                                    <input matInput [matDatepicker]="pickerENd">
+                                    <mat-datepicker-toggle matSuffix [for]="pickerENd"></mat-datepicker-toggle>
+                                    <mat-datepicker #pickerENd></mat-datepicker>
+                                </div>
+
+
+
+                            </div>
+                            <div class="col-12">
+                                <button type="button" class="btn p-2 justify-content-center "
+                                    style="background-color: orangered; color: white;">Primary</button>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<div class="row p-4" >
+
+    <div class="col-4 p-1" >
+        <div class="card p-2" style="width: 18rem;" style=" border: 3px solid gray;
+        border-radius: 0.45rem;">
+            <img src="../assets/image/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" >
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary p-1" style="color: white ;">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 p-1" >
+        <div class="card p-2" style="width: 18rem;" style=" border: 3px solid gray;
+        border-radius: 0.45rem;">
+            <img src="../assets/image/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" >
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary p-1" style="color: white ;">Go somewhere</a>
+            </div>
+        </div>
+    </div>    <div class="col-4 p-1" >
+        <div class="card p-2" style="width: 18rem;" style=" border: 3px solid gray;
+        border-radius: 0.45rem;">
+            <img src="../assets/image/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" >
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary p-1" style="color: white ;">Go somewhere</a>
+            </div>
+        </div>
+    </div>    <div class="col-4 p-1" >
+        <div class="card p-2" style="width: 18rem;" style=" border: 3px solid gray;
+        border-radius: 0.45rem;">
+            <img src="../assets/image/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" >
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary p-1" style="color: white ;">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
